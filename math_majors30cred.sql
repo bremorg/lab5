@@ -1,0 +1,1 @@
+select firstName, lastName from Student where major='Math' and credits > 30;

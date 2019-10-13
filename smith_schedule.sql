@@ -1,0 +1,1 @@
+select class_sched from Student,Enroll,Class where Student.lastName='Smith' and Student.stuId = Enroll.stuId and Class.classNumber=Enroll.classNumber;

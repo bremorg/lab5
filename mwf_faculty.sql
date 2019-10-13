@@ -1,0 +1,1 @@
+select facId from Class where class_sched LIKE 'MWF%';

@@ -1,0 +1,1 @@
+select firstName, lastName, Student.stuId from Student,Enroll where classNumber='ART103A' and Student.stuId = Enroll.stuId;
